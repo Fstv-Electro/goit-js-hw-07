@@ -9,6 +9,8 @@ const galleryMarkup = makeGalleryMarkup(galleryItems);
 
 galleryDiv.insertAdjacentHTML("beforeend", galleryMarkup);
 
+// Gallery items
+
 function makeGalleryMarkup(galleryItems) {
   return galleryItems
     .map(({ preview, original, description }) => {
